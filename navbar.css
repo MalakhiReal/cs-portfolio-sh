@@ -1,13 +1,38 @@
 #navbar{
     text-align:center;
-
+    transition:2s linear ;
 }
 
-#navbarli{
+#navbar:hover{
+    color:white;
+    
+}
+
+#navbar li{
     display: inline-block;
     border: 2px solid black;
+    
+}
+#navbar li{
+
 }
 
 #navbar a{
     
+}
+#body 
+body {
+  text-align:center;
+}
+  
+
+  p {
+  line-height:1.75em;
+  margin-top:40px;
+  margin-bottom:40px;
+  margin-right:500px;
+  margin-left:500px;
+  border:solid white;
+    color:white;
+  
 }
