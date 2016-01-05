@@ -11,6 +11,7 @@
 #navbar li{
     display: inline-block;
     border: 2px solid black;
+    transition:.5s all linear;
     
 }
 #navbar li{
@@ -18,9 +19,35 @@
 }
 
 #navbar a{
-    
+   color:red; 
+   border:solid white;
+   transition:.5s all linear;
 }
-#body 
+
+
+#navbar li:hover {
+  transform:rotateZ(360deg);
+  
+  
+  
+  
+}
+
+
+
+#navbar li  {
+  
+  
+}
+
+#navbar a:hover{
+  color:blue;
+  
+}
+
+
+
+
 body {
   text-align:center;
 }
@@ -34,5 +61,12 @@ body {
   margin-left:500px;
   border:solid white;
     color:white;
+    transition:2s ease;
+  
+}
+
+
+p:hover {
+  color:blue;
   
 }
