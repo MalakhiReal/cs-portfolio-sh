@@ -12,8 +12,26 @@ function doMath() {
         answer = parseInt(input1.value) + parseInt(input2.value);
         display.innerHTML = answer;
     }
-}
-
-(dropdown.value == "-"){
+    if  (dropdown.value == "-"){
         answer = parseInt(input1.value) - parseInt(input2.value);
         display.innerHTML = answer;
+        
+    }
+    if  (dropdown.value == "x"){
+        answer = parseInt(input1.value) * parseInt(input2.value);
+        display.innerHTML = answer;
+    }
+    if  (dropdown.value == "/"){
+        answer = parseInt(input1.value) / parseInt(input2.value);
+        display.innerHTML = answer;
+    }
+    
+    if  (dropdown.value == "%"){
+        answer = parseInt(input1.value) % parseInt(input2.value);
+        display.innerHTML = answer;
+    }
+     if (dropdown.value == "^") {
+        answer = Math.pow(input1.value,input2.value); 
+        display.innerHTML = answer;
+    }
+}

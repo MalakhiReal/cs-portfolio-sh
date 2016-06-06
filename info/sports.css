@@ -1,0 +1,11 @@
+  .paragraph {
+	       background-color: black;
+            font-family: fantasy;
+            font-size: 17px;
+            font-style: italic;
+            line-height: 1.5em;
+            transition:2s linear;
+  }
+  
+  
+  
